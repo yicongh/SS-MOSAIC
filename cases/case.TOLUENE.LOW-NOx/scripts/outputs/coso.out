@@ -1,0 +1,119 @@
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+STARTED @ Wed Mar 16 00:42:44 MDT 2022
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-ornykpp_ because the default path (/home/yicongh/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+    
+ *****************************************************
+                      MOSAIC
+ Model for Simulating Aerosol Interactions & Chemistry
+     Copyright (c) 2018 Battelle Memorial Institute
+   
+     Contact: Rahul A. Zaveri (rahul.zaveri@pnl.gov)
+        Pacific Northwest National Laboratory
+ *****************************************************
+    
+ simulation begins...
+ Enter gas input filename. Example: case1.inp
+ Finished reading all inputs...
+time =        0.0
+time =      600.0
+time =     1200.0
+time =     1800.0
+time =     2400.0
+time =     3000.0
+time =     3600.0
+time =     4200.0
+time =     4800.0
+time =     5400.0
+time =     6000.0
+time =     6600.0
+time =     7200.0
+time =     7800.0
+time =     8400.0
+time =     9000.0
+time =     9600.0
+time =    10200.0
+time =    10800.0
+time =    11400.0
+time =    12000.0
+time =    12600.0
+time =    13200.0
+time =    13800.0
+time =    14400.0
+time =    15000.0
+time =    15600.0
+time =    16200.0
+time =    16800.0
+time =    17400.0
+time =    18000.0
+time =    18600.0
+time =    19200.0
+time =    19800.0
+time =    20400.0
+time =    21000.0
+time =    21600.0
+time =    22200.0
+time =    22800.0
+time =    23400.0
+time =    24000.0
+time =    24600.0
+time =    25200.0
+time =    25800.0
+time =    26400.0
+time =    27000.0
+time =    27600.0
+time =    28200.0
+time =    28800.0
+time =    29400.0
+time =    30000.0
+time =    30600.0
+time =    31200.0
+time =    31800.0
+time =    32400.0
+time =    33000.0
+time =    33600.0
+time =    34200.0
+time =    34800.0
+time =    35400.0
+time =    36000.0
+time =    36600.0
+time =    37200.0
+time =    37800.0
+time =    38400.0
+time =    39000.0
+time =    39600.0
+time =    40200.0
+time =    40800.0
+time =    41400.0
+time =    42000.0
+time =    42600.0
+
+SIMULATION COMPLETE.
+
+/scratch/yicongh/privmods/anaconda3/lib/python3.8/site-packages/xlsxwriter/workbook.py:336: UserWarning: Calling close() on already closed file.
+  warn("Calling close() on already closed file.")
+MOSAIC COMPILING...
+MOSAIC COMPILED in /scratch/yicongh/exps/x.WRF-CHEM.SS-MOSAIC/models/MOSAIC.v0.DEV_OXY.R001.comp
+MOSAIC COPIED to CURRENT CASE.
+SOA =  66.9292
+OLG =  0.0
+FINISHED
+ENDED @ Wed Mar 16 00:43:14 MDT 2022
